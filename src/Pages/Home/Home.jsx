@@ -1,31 +1,18 @@
-import react from 'react';
-import {useState, useEffect} from 'react';
-import { getCoins } from '../../Services/cryptoApi';
-import CoinCard from '../../Components/CoinCard/CoinCard';
+
+import Banner from "../../Components/HomeComponents/Banner/Banner";
+import Features from "../../Components/HomeComponents/Features/Features";
+import MarketOverview from "../../Components/HomeComponents/MarketOverview/MarketOverview";
+import PromoBanner from "../../Components/HomeComponents/PromoBanner/PromoBanner";
 
 const Home = () => {
-    const [coins, setCoins] = useState([]);
-
-    useEffect (() => {
-        const fetchCoins = async () => {
-            try {
-                const data = await getCoins();
-                setCoins(data);
-            } catch (error){
-                console.error("Error fetching coins:", error);
-            }
-        };
-        fetchCoins();
-    }, []);
-
-    return (
-        <div>
-            <h1>Cryptocurrency Prices</h1>
-            {coins.map((coin) => (
-                <CoinCard key={coin.id} coin={coin}></CoinCard>
-            ))}
-        </div>
-    );
+    return(
+        <>
+            <Banner />
+            <Features />
+            <MarketOverview></MarketOverview>
+            <PromoBanner></PromoBanner>
+        </>
+    )
 }
 
 export default Home;

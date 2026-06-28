@@ -9,6 +9,31 @@ body{
     background: ${props => props.theme.backgroundDegradient.background};
     min-height: 100vh;
 }
+
+body::before{
+
+   content: "";
+
+   position: fixed;
+
+   width: 800px;
+   height: 800px;
+
+   background: radial-gradient(
+      circle,
+   
+    rgba(53, 130, 247, 0.12) 0%,
+     rgba(53, 130, 247, 0.06)40%,
+   transparent 85%
+
+   );
+
+   bottom: -200px;
+   left: -100px;
+   filter: blur(60px);
+   pointer-events: none;
+}
+
 * {
     margin : 0;
     padding: 0;

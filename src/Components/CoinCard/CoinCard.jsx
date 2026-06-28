@@ -1,18 +1,44 @@
 import Chart from '../Chart/Chart';
+import { CardContainer, CoinImage, TopSection, CoinSymbol, CoinName, CoinInfo, Percentage, Price } from '../CoinCard/styles';
 
 const CoinCard = ({ coin }) => {
   return (
-    <div>
-      <img src={coin.image} alt={coin.name} width="40" />
 
-      <h2>{coin.name}</h2>
+    <CardContainer> 
 
-      <p>${coin.current_price}</p>
+        <TopSection>
 
-      <p>{coin.price_change_percentage_24h.toFixed(2)}%</p>
+        <CoinInfo>
+
+        <CoinImage>
+             <img src={coin.image} alt={coin.name} width="40" />
+        </CoinImage>
+
+   
+        <div>
+            <CoinSymbol>{coin.symbol.toUpperCase()}</CoinSymbol>
+            <CoinName>{coin.name}</CoinName>
+        </div>
+
+        </CoinInfo>
+
+  
+
+      <Percentage>
+        {coin.price_change_percentage_24h.toFixed(2)}%
+      </Percentage>
+
+        </TopSection>
+
+        <Price>${coin.current_price}</Price>
+
+        
 
       <Chart coinId={coin.id} />
-    </div>
+
+    </CardContainer>
+      
+    
   );
 };
 

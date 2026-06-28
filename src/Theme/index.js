@@ -1,6 +1,6 @@
 const Theme = {
    backgroundDegradient: {
-  background: 'linear-gradient(180deg, #1d1d25 0%, #0d0d11 100%)',
+  background: 'linear-gradient(135deg, #05050B 40%, #0a0a12 100%)',
 },
 
     title: {
