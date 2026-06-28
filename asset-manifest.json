@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/TU_REPO/static/js/main.7159dc7b.js",
+    "main.js": "/TU_REPO/static/js/main.d714fcc0.js",
     "static/media/Dashboard Preview 2.png": "/TU_REPO/static/media/Dashboard Preview 2.71e0d00b0d74ed2cfa2f.png",
     "static/media/rocket-3d-illustration-spaceship-icon-isolated-png.webp": "/TU_REPO/static/media/rocket-3d-illustration-spaceship-icon-isolated-png.c6a2cd13a7809d99b572.webp",
     "static/media/star-regular-full.svg": "/TU_REPO/static/media/star-regular-full.cfb7e63ab2fd50d41831ed2db7b82c2c.svg",
@@ -12,9 +12,9 @@
     "static/media/arrow-trend-up-solid-full.svg": "/TU_REPO/static/media/arrow-trend-up-solid-full.0126ad2cbfb637d70542ed911058203e.svg",
     "static/media/shield-halved-solid-full.svg": "/TU_REPO/static/media/shield-halved-solid-full.ec9eeec1da3c5dfbc7d50a86f462d270.svg",
     "static/media/lock-solid-full.svg": "/TU_REPO/static/media/lock-solid-full.e99adab8a664cff9661873909c8615fa.svg",
-    "main.7159dc7b.js.map": "/TU_REPO/static/js/main.7159dc7b.js.map"
+    "main.d714fcc0.js.map": "/TU_REPO/static/js/main.d714fcc0.js.map"
   },
   "entrypoints": [
-    "static/js/main.7159dc7b.js"
+    "static/js/main.d714fcc0.js"
   ]
 }
