@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/crypto-data-app/static/js/main.30938112.js",
-    "static/media/Dashboard Preview 2.png": "/crypto-data-app/static/media/Dashboard Preview 2.71e0d00b0d74ed2cfa2f.png",
-    "static/media/rocket-3d-illustration-spaceship-icon-isolated-png.webp": "/crypto-data-app/static/media/rocket-3d-illustration-spaceship-icon-isolated-png.c6a2cd13a7809d99b572.webp",
-    "index.html": "/crypto-data-app/index.html",
-    "static/media/star-regular-full.svg": "/crypto-data-app/static/media/star-regular-full.cfb7e63ab2fd50d41831ed2db7b82c2c.svg",
-    "static/media/chart-pie-solid-full.svg": "/crypto-data-app/static/media/chart-pie-solid-full.f134eb20ca5dcfe7881633cbe98942cc.svg",
-    "static/media/database-solid-full.svg": "/crypto-data-app/static/media/database-solid-full.8be9d9087bb7b58cc9c0018a2024676f.svg",
-    "static/media/chart-area-solid-full.svg": "/crypto-data-app/static/media/chart-area-solid-full.251fe19265680cf4afd79652f41af1f4.svg",
-    "static/media/wallet.svg": "/crypto-data-app/static/media/wallet.945369a863635904643587516e81e17c.svg",
-    "static/media/arrow-trend-up-solid-full.svg": "/crypto-data-app/static/media/arrow-trend-up-solid-full.0126ad2cbfb637d70542ed911058203e.svg",
-    "static/media/shield-halved-solid-full.svg": "/crypto-data-app/static/media/shield-halved-solid-full.ec9eeec1da3c5dfbc7d50a86f462d270.svg",
-    "static/media/lock-solid-full.svg": "/crypto-data-app/static/media/lock-solid-full.e99adab8a664cff9661873909c8615fa.svg",
-    "main.30938112.js.map": "/crypto-data-app/static/js/main.30938112.js.map"
+    "main.js": "/Crypto-Data-App/static/js/main.806538b0.js",
+    "static/media/Dashboard Preview 2.png": "/Crypto-Data-App/static/media/Dashboard Preview 2.71e0d00b0d74ed2cfa2f.png",
+    "static/media/rocket-3d-illustration-spaceship-icon-isolated-png.webp": "/Crypto-Data-App/static/media/rocket-3d-illustration-spaceship-icon-isolated-png.c6a2cd13a7809d99b572.webp",
+    "index.html": "/Crypto-Data-App/index.html",
+    "static/media/star-regular-full.svg": "/Crypto-Data-App/static/media/star-regular-full.cfb7e63ab2fd50d41831ed2db7b82c2c.svg",
+    "static/media/chart-pie-solid-full.svg": "/Crypto-Data-App/static/media/chart-pie-solid-full.f134eb20ca5dcfe7881633cbe98942cc.svg",
+    "static/media/database-solid-full.svg": "/Crypto-Data-App/static/media/database-solid-full.8be9d9087bb7b58cc9c0018a2024676f.svg",
+    "static/media/chart-area-solid-full.svg": "/Crypto-Data-App/static/media/chart-area-solid-full.251fe19265680cf4afd79652f41af1f4.svg",
+    "static/media/wallet.svg": "/Crypto-Data-App/static/media/wallet.945369a863635904643587516e81e17c.svg",
+    "static/media/arrow-trend-up-solid-full.svg": "/Crypto-Data-App/static/media/arrow-trend-up-solid-full.0126ad2cbfb637d70542ed911058203e.svg",
+    "static/media/shield-halved-solid-full.svg": "/Crypto-Data-App/static/media/shield-halved-solid-full.ec9eeec1da3c5dfbc7d50a86f462d270.svg",
+    "static/media/lock-solid-full.svg": "/Crypto-Data-App/static/media/lock-solid-full.e99adab8a664cff9661873909c8615fa.svg",
+    "main.806538b0.js.map": "/Crypto-Data-App/static/js/main.806538b0.js.map"
   },
   "entrypoints": [
-    "static/js/main.30938112.js"
+    "static/js/main.806538b0.js"
   ]
 }
